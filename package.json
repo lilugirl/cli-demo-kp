@@ -1,6 +1,6 @@
 {
   "name": "liuyi-kp",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "kp is a tool for kill process by server port. only used for mac && linux",
   "main": "index.js",
   "bin": {
@@ -8,7 +8,7 @@
   },
   "scripts": {
     "start": "npm publish .",
-    "test": "DEBUG=kp node test.js"
+    "test": "DEBUG=kp2 node test.js"
   },
   "repository": {
     "type": "git",

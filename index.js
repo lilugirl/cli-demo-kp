@@ -7,6 +7,7 @@ function exec_kp (server_port, pre){
 
     var child_process =require('child_process')
     var script =pre + ' lsof -i:' + server_port + ' | xargs killall';
+    console.log(script)
     debug(script)
 
     child_process.exec(script,function(error,stdout,stderr){

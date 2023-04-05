@@ -10,15 +10,15 @@ kp is a tool for kill process by server port. only used for mac && linux
 
 default server port is 5502
 
-$ kp2
+`$ kp2`
 
 or kill by some port
 
-$ kp2 3002
+`$ kp2 3002`
 
 or wit sudo
 
-$ kp2 3002 -s or kp2 3002 --sudo
+`$ kp2 3002 -s or kp2 3002 --sudo`
 
 ## Code
 
