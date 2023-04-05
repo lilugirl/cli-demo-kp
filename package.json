@@ -1,0 +1,27 @@
+{
+  "name": "liuyi-kp",
+  "version": "1.0.2",
+  "description": "kp is a tool for kill process by server port. only used for mac && linux",
+  "main": "index.js",
+  "bin": {
+    "kp2": "kp.js"
+  },
+  "scripts": {
+    "start": "npm publish .",
+    "test": "DEBUG=kp node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilugirl/cli-demo-kp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lilugirl/cli-demo-kp/issues"
+  },
+  "homepage": "https://github.com/lilugirl/cli-demo-kp#readme",
+  "dependencies": {
+    "debug": "^4.3.4"
+  }
+}
